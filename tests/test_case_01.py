@@ -1,24 +1,29 @@
+import pytest
 from selenium.webdriver.common.by import By
+
+from TestCaseData.Test_Case_Data_01 import TestDataOnce
 from pageobjects.CartPage import Cart
 from utilities.BaseClass import Baseclass
 
 
 class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without Writing This in Every Test Cases only Inherited Baseclass
-    def test_one(self):
+    def test_one(self, getData):
+        log = self.getLogger()
         Home = Cart(self.driver)  # Creating the Object for the class Cart
-        Home.SearchItems().send_keys("cu")   # Object calling class method
+        initial_url = self.Main()
+        Home.SearchItems().send_keys(getData["Search_Item"])   # Object calling class method
         products = Home.Products()
-        print(f"The total products count is {len(products)}")
+        log.info(f"The total products count is {len(products)}")
         buttons = Home.Buttons()
-        print(f"The total Button count is {len(buttons)}")
+        log.info(f"The total Button count is {len(buttons)}")
         # //div[@class='products']//div[@class='product']//button[@type='button']/parent::div/parent::div/h44
         list_01 = []
         for button in buttons:
             list_01.append(button.find_element(By.XPATH, "parent::div/parent::div/h4").text)
             button.click()
-        print(list_01)
+        log.info(list_01)
         Count = Home.Product_Counts().text
-        print(f"Total Product added in the cart is {Count}")
+        log.info(f"Total Product added in the cart is {Count}")
         assert len(products) == int(Count)
 
         Home.Cart_Click().click()
@@ -30,7 +35,7 @@ class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without 
         Veggies = checkOut.Get_Veg_Name()
         for Vegetables in Veggies:
             list_02.append(Vegetables.text)
-        print(list_02)
+        log.info(list_02)
         assert list_01 == list_02
 
         Total_Amount = checkOut.Total_Amount().text
@@ -47,11 +52,16 @@ class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without 
         Discount_Amount = Int_Total_Amount * 0.10
         Final_Amount = Int_Total_Amount - Discount_Amount
         assert Final_Amount == Int_Final
-        print(Discount_Amount)
+        log.info(Discount_Amount)
 
         Products_amount = checkOut.Product_Amount()
         Amount = 0
         for Product_amount in Products_amount:
             Amount = Amount + int(Product_amount.text)
-        print(Amount)
+        log.info(Amount)
         assert Amount == Int_Total_Amount
+        self.driver.get(initial_url)
+
+    @pytest.fixture(params=TestDataOnce.DataSet)
+    def getData(self, request):
+        return request.param

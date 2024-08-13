@@ -166,3 +166,262 @@ Read port: 64498
 1723490825759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1723490837317	Marionette	INFO	Stopped listening on port 64498
 Dynamically enable window occlusion 1
+1723562656572	geckodriver	INFO	Listening on 127.0.0.1:63898
+1723562659684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileWOYUiO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723562670310	Marionette	INFO	Marionette enabled
+1723562670482	Marionette	INFO	Listening on port 63907
+WebDriver BiDi listening on ws://127.0.0.1:63899
+Read port: 63907
+1723562670703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1723562693327	Marionette	INFO	Stopped listening on port 63907
+Dynamically enable window occlusion 1
+1723562736932	geckodriver	INFO	Listening on 127.0.0.1:63968
+1723562739967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileVcbiq3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723562750468	Marionette	INFO	Marionette enabled
+1723562750646	Marionette	INFO	Listening on port 63977
+WebDriver BiDi listening on ws://127.0.0.1:63969
+Read port: 63977
+1723562750889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1723562774472	Marionette	INFO	Stopped listening on port 63977
+Dynamically enable window occlusion 1
+1723562813222	geckodriver	INFO	Listening on 127.0.0.1:64042
+1723562816280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofilefBau9J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723562826725	Marionette	INFO	Marionette enabled
+1723562826880	Marionette	INFO	Listening on port 64050
+WebDriver BiDi listening on ws://127.0.0.1:64043
+Read port: 64050
+1723562827053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723562856769	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723562862527	Marionette	INFO	Stopped listening on port 64050
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  security-state/intermediates Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":133,"columnNumber":11,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":266,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":217,"columnNumber":12,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":24,"lineNumber":1005,"columnNumber":47,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":24,"lineNumber":1084,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1005:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:217:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1005:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:266:15\nfetch@resource://services-settings/Utils.sys.mjs:217:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1005:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:266:15\nfetch@resource://services-settings/Utils.sys.mjs:217:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1005:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:266:15|fetch@resource://services-settings/Utils.sys.mjs:217:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1005:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1084:20|
+  - prototype Object
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.error: ({details:{id:"9a0cf117-f8e7-4420-cc60-9fac2c2f6ffa", last_modified:1722628622999, bucket:"security-state", collection:"intermediates", host:"firefox.settings.services.mozilla.com"}})
+1723563123649	geckodriver	INFO	Listening on 127.0.0.1:64174
+1723563126706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileG45Gkz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723563132949	Marionette	INFO	Marionette enabled
+1723563133096	Marionette	INFO	Listening on port 64187
+WebDriver BiDi listening on ws://127.0.0.1:64175
+Read port: 64187
+1723563133285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1723563155691	Marionette	INFO	Stopped listening on port 64187
+Dynamically enable window occlusion 1
+1723563658637	geckodriver	INFO	Listening on 127.0.0.1:64326
+1723563661682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileB9pXDH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723563672142	Marionette	INFO	Marionette enabled
+1723563672292	Marionette	INFO	Listening on port 64334
+WebDriver BiDi listening on ws://127.0.0.1:64327
+Read port: 64334
+1723563672473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 6: Error: Request aborted
+1723563702176	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 6: Error: Request aborted
+1723563716621	Marionette	INFO	Stopped listening on port 64334
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 22: Script terminated by timeout at:
+Pg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:51125
+p@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:53127
+ca@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:54364
+Rg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:56443
+R@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:65910
+Yr@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:106412
+Qj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97057
+Kj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:96980
+yj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:93995
+fg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45366
+t.unstable_runWithPriority@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:30:3842
+cg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45076
+fg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45314
+gg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45247
+Ig@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:90766
+enqueueSetState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:49069
+F.prototype.setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:14:1297
+t.componentDidMount/this.unlisten<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:5425
+listener@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16369
+createTransitionManager/notifyListeners/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16610
+notifyListeners@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16581
+setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:20923
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21322
+confirmTransitionTo@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16302
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21278
+handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
+
+Dynamically enable window occlusion 1
+1723563807462	geckodriver	INFO	Listening on 127.0.0.1:64476
+1723563810494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileBpm6Ql"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723563820942	Marionette	INFO	Marionette enabled
+1723563821094	Marionette	INFO	Listening on port 60736
+WebDriver BiDi listening on ws://127.0.0.1:64477
+Read port: 60736
+1723563821273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723563831288	Marionette	INFO	Stopped listening on port 60736
+Dynamically enable window occlusion 1
+1723563889007	geckodriver	INFO	Listening on 127.0.0.1:60797
+1723563892045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60798" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofile7Lc22x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723563902479	Marionette	INFO	Marionette enabled
+1723563902638	Marionette	INFO	Listening on port 60805
+WebDriver BiDi listening on ws://127.0.0.1:60798
+Read port: 60805
+1723563902844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723563907822	Marionette	INFO	Stopped listening on port 60805
+Dynamically enable window occlusion 1
+1723564182338	geckodriver	INFO	Listening on 127.0.0.1:60869
+1723564185376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60870" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofilev1lmcQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723564195815	Marionette	INFO	Marionette enabled
+1723564195961	Marionette	INFO	Listening on port 60877
+WebDriver BiDi listening on ws://127.0.0.1:60870
+Read port: 60877
+1723564196160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1723564217751	Marionette	INFO	Stopped listening on port 60877
+Dynamically enable window occlusion 1
+1723564404510	geckodriver	INFO	Listening on 127.0.0.1:60984
+1723564407552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofilerHgA6L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723564417989	Marionette	INFO	Marionette enabled
+1723564418179	Marionette	INFO	Listening on port 60992
+WebDriver BiDi listening on ws://127.0.0.1:60985
+Read port: 60992
+1723564418418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723564448022	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723564453958	Marionette	INFO	Stopped listening on port 60992
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 6: Script terminated by timeout at:
+e.exports/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:6:6933
+e.exports@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:6:5202
+e.exports@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:38:5520
+
+Dynamically enable window occlusion 1
+1723565342044	geckodriver	INFO	Listening on 127.0.0.1:61107
+1723565345065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61108" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileJq9VQP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723565355542	Marionette	INFO	Marionette enabled
+1723565355712	Marionette	INFO	Listening on port 61118
+WebDriver BiDi listening on ws://127.0.0.1:61108
+Read port: 61118
+1723565355906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723565385573	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723565391552	Marionette	INFO	Stopped listening on port 61118
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 1: Script terminated by timeout at:
+M/</<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:100192
+Yr@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:107813
+Qj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97057
+Kj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:96980
+yj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:93995
+fg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45366
+t.unstable_runWithPriority@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:30:3842
+cg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45076
+fg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45314
+gg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45247
+Ig@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:90766
+enqueueSetState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:49069
+F.prototype.setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:14:1297
+t.componentDidMount/this.unlisten<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:5425
+listener@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16369
+createTransitionManager/notifyListeners/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16610
+notifyListeners@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16581
+setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:20923
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21322
+confirmTransitionTo@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16302
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21278
+handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
+
+Dynamically enable window occlusion 1
+1723565619282	geckodriver	INFO	Listening on 127.0.0.1:61268
+1723565622312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileIlHlLE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723565632772	Marionette	INFO	Marionette enabled
+1723565632979	Marionette	INFO	Listening on port 61279
+WebDriver BiDi listening on ws://127.0.0.1:61269
+Read port: 61279
+1723565633169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723565662809	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723565670315	Marionette	INFO	Stopped listening on port 61279
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 22: Script terminated by timeout at:
+zg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:47168
+Ng@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:50477
+fi@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:67232
+Yr@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:105707
+Qj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97057
+Kj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:96980
+yj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:93995
+fg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45366
+t.unstable_runWithPriority@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:30:3842
+cg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45076
+fg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45314
+gg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45247
+Ig@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:90766
+enqueueSetState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:49069
+F.prototype.setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:14:1297
+t.componentDidMount/this.unlisten<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:5425
+listener@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16369
+createTransitionManager/notifyListeners/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16610
+notifyListeners@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16581
+setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:20923
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21322
+confirmTransitionTo@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16302
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21278
+handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
+
+Dynamically enable window occlusion 1

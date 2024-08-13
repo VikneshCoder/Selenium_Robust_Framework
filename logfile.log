@@ -1,0 +1,140 @@
+2024-08-13 21:39:21,331 :INFO :test_one :The total products count is 2
+2024-08-13 21:39:21,339 :INFO :test_one :The total Button count is 2
+2024-08-13 21:39:22,004 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-13 21:39:22,027 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:39:23,082 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-13 21:39:28,241 :INFO :test_one :10.8
+2024-08-13 21:39:28,276 :INFO :test_one :108
+2024-08-13 21:39:28,386 :INFO :test_one :The total products count is 7
+2024-08-13 21:39:28,386 :INFO :test_one :The total products count is 7
+2024-08-13 21:39:28,402 :INFO :test_one :The total Button count is 7
+2024-08-13 21:39:28,402 :INFO :test_one :The total Button count is 7
+2024-08-13 21:39:30,185 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:39:30,185 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:39:30,209 :INFO :test_one :Total Product added in the cart is 7
+2024-08-13 21:39:30,209 :INFO :test_one :Total Product added in the cart is 7
+2024-08-13 21:39:31,108 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:39:31,108 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:39:36,243 :INFO :test_one :106.9
+2024-08-13 21:39:36,243 :INFO :test_one :106.9
+2024-08-13 21:39:36,328 :INFO :test_one :1069
+2024-08-13 21:39:36,328 :INFO :test_one :1069
+2024-08-13 21:39:36,446 :INFO :test_one :The total products count is 9
+2024-08-13 21:39:36,446 :INFO :test_one :The total products count is 9
+2024-08-13 21:39:36,446 :INFO :test_one :The total products count is 9
+2024-08-13 21:39:36,462 :INFO :test_one :The total Button count is 9
+2024-08-13 21:39:36,462 :INFO :test_one :The total Button count is 9
+2024-08-13 21:39:36,462 :INFO :test_one :The total Button count is 9
+2024-08-13 21:39:38,736 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:38,736 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:38,736 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:38,756 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:39:38,756 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:39:38,756 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:39:39,687 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:39,687 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:39,687 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:39:44,801 :INFO :test_one :77.60000000000001
+2024-08-13 21:39:44,801 :INFO :test_one :77.60000000000001
+2024-08-13 21:39:44,801 :INFO :test_one :77.60000000000001
+2024-08-13 21:39:44,874 :INFO :test_one :776
+2024-08-13 21:39:44,874 :INFO :test_one :776
+2024-08-13 21:39:44,874 :INFO :test_one :776
+2024-08-13 21:39:44,984 :INFO :test_one :The total products count is 2
+2024-08-13 21:39:44,984 :INFO :test_one :The total products count is 2
+2024-08-13 21:39:44,984 :INFO :test_one :The total products count is 2
+2024-08-13 21:39:44,984 :INFO :test_one :The total products count is 2
+2024-08-13 21:39:44,993 :INFO :test_one :The total Button count is 2
+2024-08-13 21:39:44,993 :INFO :test_one :The total Button count is 2
+2024-08-13 21:39:44,993 :INFO :test_one :The total Button count is 2
+2024-08-13 21:39:44,993 :INFO :test_one :The total Button count is 2
+2024-08-13 21:39:45,571 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:45,571 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:45,571 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:45,571 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:45,587 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:39:45,587 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:39:45,587 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:39:45,587 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:39:46,397 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:46,397 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:46,397 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:46,397 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:39:51,510 :INFO :test_one :15.0
+2024-08-13 21:39:51,510 :INFO :test_one :15.0
+2024-08-13 21:39:51,510 :INFO :test_one :15.0
+2024-08-13 21:39:51,510 :INFO :test_one :15.0
+2024-08-13 21:39:51,525 :INFO :test_one :150
+2024-08-13 21:39:51,525 :INFO :test_one :150
+2024-08-13 21:39:51,525 :INFO :test_one :150
+2024-08-13 21:39:51,525 :INFO :test_one :150
+2024-08-13 21:43:59,927 :INFO :test_one :The total products count is 2
+2024-08-13 21:43:59,942 :INFO :test_one :The total Button count is 2
+2024-08-13 21:44:00,601 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-13 21:44:00,620 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:44:01,649 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-13 21:44:06,807 :INFO :test_one :10.8
+2024-08-13 21:44:06,842 :INFO :test_one :108
+2024-08-13 21:44:06,944 :INFO :test_one :The total products count is 7
+2024-08-13 21:44:06,944 :INFO :test_one :The total products count is 7
+2024-08-13 21:44:06,951 :INFO :test_one :The total Button count is 7
+2024-08-13 21:44:06,951 :INFO :test_one :The total Button count is 7
+2024-08-13 21:44:08,754 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:44:08,754 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:44:08,775 :INFO :test_one :Total Product added in the cart is 7
+2024-08-13 21:44:08,775 :INFO :test_one :Total Product added in the cart is 7
+2024-08-13 21:44:09,677 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:44:09,677 :INFO :test_one :['Brocolli - 1 Kg', 'Cauliflower - 1 Kg', 'Cucumber - 1 Kg', 'Carrot - 1 Kg', 'Capsicum', 'Corn - 1 Kg', 'Cashews - 1 Kg']
+2024-08-13 21:44:14,794 :INFO :test_one :106.9
+2024-08-13 21:44:14,794 :INFO :test_one :106.9
+2024-08-13 21:44:14,880 :INFO :test_one :1069
+2024-08-13 21:44:14,880 :INFO :test_one :1069
+2024-08-13 21:44:15,001 :INFO :test_one :The total products count is 9
+2024-08-13 21:44:15,001 :INFO :test_one :The total products count is 9
+2024-08-13 21:44:15,001 :INFO :test_one :The total products count is 9
+2024-08-13 21:44:15,007 :INFO :test_one :The total Button count is 9
+2024-08-13 21:44:15,007 :INFO :test_one :The total Button count is 9
+2024-08-13 21:44:15,007 :INFO :test_one :The total Button count is 9
+2024-08-13 21:44:17,247 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:17,247 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:17,247 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:17,267 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:44:17,267 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:44:17,267 :INFO :test_one :Total Product added in the cart is 9
+2024-08-13 21:44:18,227 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:18,227 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:18,227 :INFO :test_one :['Capsicum', 'Potato - 1 Kg', 'Pumpkin - 1 Kg', 'Apple - 1 Kg', 'Grapes - 1 Kg', 'Pears - 1 Kg', 'Pomegranate - 1 Kg', 'Raspberry - 1/4 Kg', 'Pista - 1/4 Kg']
+2024-08-13 21:44:23,334 :INFO :test_one :77.60000000000001
+2024-08-13 21:44:23,334 :INFO :test_one :77.60000000000001
+2024-08-13 21:44:23,334 :INFO :test_one :77.60000000000001
+2024-08-13 21:44:23,410 :INFO :test_one :776
+2024-08-13 21:44:23,410 :INFO :test_one :776
+2024-08-13 21:44:23,410 :INFO :test_one :776
+2024-08-13 21:44:23,569 :INFO :test_one :The total products count is 2
+2024-08-13 21:44:23,569 :INFO :test_one :The total products count is 2
+2024-08-13 21:44:23,569 :INFO :test_one :The total products count is 2
+2024-08-13 21:44:23,569 :INFO :test_one :The total products count is 2
+2024-08-13 21:44:23,576 :INFO :test_one :The total Button count is 2
+2024-08-13 21:44:23,576 :INFO :test_one :The total Button count is 2
+2024-08-13 21:44:23,576 :INFO :test_one :The total Button count is 2
+2024-08-13 21:44:23,576 :INFO :test_one :The total Button count is 2
+2024-08-13 21:44:24,222 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:24,222 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:24,222 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:24,222 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:24,248 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:44:24,248 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:44:24,248 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:44:24,248 :INFO :test_one :Total Product added in the cart is 2
+2024-08-13 21:44:25,113 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:25,113 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:25,113 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:25,113 :INFO :test_one :['Corn - 1 Kg', 'Orange - 1 Kg']
+2024-08-13 21:44:30,262 :INFO :test_one :15.0
+2024-08-13 21:44:30,262 :INFO :test_one :15.0
+2024-08-13 21:44:30,262 :INFO :test_one :15.0
+2024-08-13 21:44:30,262 :INFO :test_one :15.0
+2024-08-13 21:44:30,293 :INFO :test_one :150
+2024-08-13 21:44:30,293 :INFO :test_one :150
+2024-08-13 21:44:30,293 :INFO :test_one :150
+2024-08-13 21:44:30,293 :INFO :test_one :150
