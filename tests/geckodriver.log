@@ -1,2 +1,42 @@
 Invalid port. Exiting...
 Invalid port. Exiting...
+1723650226638	geckodriver	INFO	Listening on 127.0.0.1:63193
+1723650229590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63194" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofile81UnpV"
+1723650268105	geckodriver	INFO	Listening on 127.0.0.1:63249
+1723650271101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63250" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileDlDLv8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723650281719	Marionette	INFO	Marionette enabled
+1723650281923	Marionette	INFO	Listening on port 63261
+WebDriver BiDi listening on ws://127.0.0.1:63250
+Read port: 63261
+1723650282117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723650295029	Marionette	INFO	Stopped listening on port 63261
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 1: Script terminated by timeout at:
+value@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:168649
+gi@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:69990
+fi@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:69785
+Yr@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:105707
+Qj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97057
+Kj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:96980
+yj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:93995
+fg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45366
+t.unstable_runWithPriority@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:30:3842
+cg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45076
+fg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45314
+gg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45247
+Ig@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:90766
+enqueueSetState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:49069
+F.prototype.setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:14:1297
+t.componentDidMount/this.unlisten<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:5425
+listener@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16369
+createTransitionManager/notifyListeners/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16610
+notifyListeners@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16581
+setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:20923
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21322
+confirmTransitionTo@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16302
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21278
+handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,7 @@
+2024-08-14 21:14:47,880 :INFO :test_one :The total products count is 2
+2024-08-14 21:14:47,887 :INFO :test_one :The total Button count is 2
+2024-08-14 21:14:48,663 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-14 21:14:48,678 :INFO :test_one :Total Product added in the cart is 2
+2024-08-14 21:14:49,785 :INFO :test_one :['Cucumber - 1 Kg', 'Capsicum']
+2024-08-14 21:14:54,956 :INFO :test_one :10.8
+2024-08-14 21:14:54,994 :INFO :test_one :108
