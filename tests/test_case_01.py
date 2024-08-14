@@ -62,6 +62,6 @@ class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without 
         assert Amount == Int_Total_Amount
         self.driver.get(initial_url)
 
-    @pytest.fixture(params=TestDataOnce.DataSet)
+    @pytest.fixture(params=TestDataOnce.TestDataExcel("Testcase_01"))
     def getData(self, request):
         return request.param

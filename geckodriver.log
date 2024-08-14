@@ -425,3 +425,40 @@ createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPrac
 handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
 
 Dynamically enable window occlusion 1
+1723647286774	geckodriver	INFO	Listening on 127.0.0.1:62954
+1723647289882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62955" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VIKNES~1\\AppData\\Local\\Temp\\rust_mozprofileuty08l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1723647300638	Marionette	INFO	Marionette enabled
+1723647300810	Marionette	INFO	Listening on port 62963
+WebDriver BiDi listening on ws://127.0.0.1:62955
+Read port: 62963
+1723647301034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1723647314164	Marionette	INFO	Stopped listening on port 62963
+JavaScript warning: https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js, line 22: Script terminated by timeout at:
+md@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:24616
+si@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:76570
+Pj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97238
+Qj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:97127
+Kj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:96980
+yj@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:93995
+fg/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45366
+t.unstable_runWithPriority@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:30:3842
+cg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45076
+fg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45314
+gg@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:45247
+Ig@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:90766
+enqueueSetState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:22:49069
+F.prototype.setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:14:1297
+t.componentDidMount/this.unlisten<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:5425
+listener@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16369
+createTransitionManager/notifyListeners/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16610
+notifyListeners@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16581
+setState@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:20923
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21322
+confirmTransitionTo@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:16302
+createHashHistory/handleHashChange/<@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21278
+handleHashChange@https://rahulshettyacademy.com/seleniumPractise/main.7510497e0a8630cf699d.js:1:21514
+
+Dynamically enable window occlusion 1
