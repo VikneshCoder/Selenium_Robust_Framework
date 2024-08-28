@@ -4,8 +4,7 @@ from selenium.webdriver.common.by import By
 from TestCaseData.Test_Case_Data_01 import TestDataOnce
 from pageobjects.CartPage import Cart
 from utilities.BaseClass import Baseclass
-
-
+@pytest.mark.Two
 class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without Writing This in Every Test Cases only Inherited Baseclass
     def test_one(self, getData):
         log = self.getLogger()
@@ -65,3 +64,7 @@ class TestCaseOne(Baseclass):  # From Utilities Imported Login Fixtures Without 
     @pytest.fixture(params=TestDataOnce.TestDataExcel("Testcase_01"))
     def getData(self, request):
         return request.param
+@pytest.mark.One
+class TestDummy:
+    def test_dummy(self):
+        pass
