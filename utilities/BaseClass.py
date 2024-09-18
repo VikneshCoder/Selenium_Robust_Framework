@@ -26,6 +26,7 @@ class Baseclass:
             EC.visibility_of_element_located((By.XPATH, XPath))
         )
 
+
     def Implicit_Wait(self, Seconds):
         self.driver.implicitly_wait(Seconds)
 
